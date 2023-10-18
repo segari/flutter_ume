@@ -38,7 +38,7 @@ class ColorSucker extends StatefulWidget implements Pluggable {
 class _ColorSuckerState extends State<ColorSucker> {
   late Size _magnifierSize;
   double? _scale;
-  BorderRadius? _radius;
+  late BorderRadius _radius;
   Color _currentColor = Colors.white;
   img.Image? _snapshot;
   Offset _magnifierPosition = Offset.zero;
